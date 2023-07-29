@@ -1,0 +1,26 @@
+gspca.c:508:22: style: The scope of the variable 'frame' can be reduced. [variableScope]
+ struct gspca_frame *frame;
+                     ^
+gspca.c:547:6: style: The scope of the variable 'i' can be reduced. [variableScope]
+ int i;
+     ^
+gspca.c:564:14: style: The scope of the variable 'urb' can be reduced. [variableScope]
+ struct urb *urb;
+             ^
+gspca.c:619:9: style: The scope of the variable 'attr' can be reduced. [variableScope]
+ int i, attr, ep_nr;
+        ^
+gspca.c:693:26: style: The scope of the variable 'found' can be reduced. [variableScope]
+ int i, j, nbalt, psize, found;
+                         ^
+gspca.c:1134:18: style: The scope of the variable 'mode2' can be reduced. [variableScope]
+ int w, h, mode, mode2;
+                 ^
+gspca.c:2046:25: style: The scope of the variable 'intf2' can be reduced. [variableScope]
+  struct usb_interface *intf2;
+                        ^
+gspca.c:1084:4: style: Variable 'j' is assigned a value that is never used. [unreadVariable]
+ j = 0;
+   ^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingIncludeSystem]
+
